@@ -1,0 +1,55 @@
+*{
+margin:0.1%;
+padding:0;
+}
+div.contact{
+background-image:url(Img/Untitled-1.jpg) ;
+width:100%;
+font-family:Verdana, Arial, Helvetica, sans-serif:
+}
+div.tel{
+float:left}
+
+.logo{
+	width:15%;
+height:auto;
+}
+img{width:100%;
+height:auto;
+}
+
+.col-4{
+display:inline-block;
+width:24%;
+height:auto;
+}
+.col-5{
+display:inline-block;
+width:17%;
+height:auto;
+}
+
+@media screen and (max-width:744px){
+.col-4{width:47%;
+display:inline-block;
+}
+.col-5{
+display:inline-block;
+width:30%;
+height:auto;
+}
+.logo{
+	display: none;
+}
+}
+@media screen and (max-width:400px){
+.col-4{width:100%;
+display:inline-block;
+}
+.col-5{width:47%;
+display:inline-block;
+}
+.logo{
+	display: none;
+}
+}

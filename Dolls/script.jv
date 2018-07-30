@@ -1,0 +1,5 @@
+function Cl(){
+	var block=document.getElementsByName("count");
+alert(block[0].innerHTML);
+	
+}
